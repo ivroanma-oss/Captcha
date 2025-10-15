@@ -47,6 +47,6 @@ namespace Captcha
                 Captch += combination[r.Next(combination.Length)];
             labelCaptch.Text = Captch;
             timer1.Start();
-}
+        }
     }
 }
